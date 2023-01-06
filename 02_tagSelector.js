@@ -1,6 +1,6 @@
 function tagSelector() { 
-    return document.querySelector("button");
-    //getElementsByTagName("button")[0];
+    //return document.querySelector("button");
+    return document.getElementsByTagName("button")[0];
     } 
 
   console.log(tagSelector());
