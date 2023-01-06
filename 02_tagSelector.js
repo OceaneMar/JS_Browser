@@ -3,8 +3,8 @@ function tagSelector() {
     return document.getElementsByTagName("button")[0];
     } 
 
-  console.log(tagSelector());
-  console.log(tagSelector().innerHTML);
+  //console.log(tagSelector());
+  //console.log(tagSelector().innerHTML);
    
 tagSelector(); 
 
