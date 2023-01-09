@@ -1,15 +1,17 @@
 //récupérer les boutons
-let btn = document.querySelectorAll( "button.warning, button.danger, button.secondary, button" );
+let btn = document.querySelectorAll( "button, .btn, .danger, .secondary, .warning" );
 
-btn = [...btn]; //transformer en tableau
+CSS(btn, {background: blue;});
 
-console.log(btn);
+// btn = [...btn]; //transformer en tableau
+
+// console.log(btn);
 
 
-btn.map(elt => {
-    if (elt = elt[3]) {
-        return elt.style.backgroundColor="red";
-    } else {
-        return elt.style.backgroundColor="blue";
-    }
-});
+// btn.map(elt => {
+//     if (elt = elt[3]) {
+//         return elt.style.backgroundColor="red";
+//     } else {
+//         return elt.style.backgroundColor="blue";
+//     }
+// });
