@@ -1,5 +1,5 @@
 function classSelector() { 
-        return document.querySelectorAll("p.x-wing")[2];
+        return document.querySelectorAll("p.x-wing")[2].textContent;
     } 
 
   //console.log(classSelector());
