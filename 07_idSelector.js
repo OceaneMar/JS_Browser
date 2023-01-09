@@ -1,9 +1,9 @@
 function idSelector() { 
-    return document.getElementById("input");
+    return document.getElementById("input").value;
 } 
 
-//console.log(idSelector());
-//console.log(idSelector().innerHTML);
+console.log(idSelector());
+console.log(idSelector().innerHTML);
 
 idSelector(); 
 
