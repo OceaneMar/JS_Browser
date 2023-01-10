@@ -7,6 +7,5 @@ function parentAccess(node) {
 //console.log(parentAccess(elt));
 //console.log(parentAccess().innerHTML);
 
-parentAccess(); 
 
 module.exports = parentAccess;
