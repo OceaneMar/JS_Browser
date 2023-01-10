@@ -1,21 +1,20 @@
-//récupérer les boutons
-let btn = document.querySelectorAll("button");
+let btn1 = document.querySelectorAll(".btn");
+btn1 = [...btn1];
+btn1.map(elt => elt.style.backgroundColor = "blue");
 
-//btn = [...btn]; //transformer en tableau
+let btn2 = document.querySelectorAll(".secondary");
+btn2 = [...btn2];
+btn2.map(elt => elt.style.backgroundColor = "grey");
 
-//boucle à travers le tableau de bouton pour récupérer la classe de chaque bouton
-let btnClass = null;
-for (let i = 0; i < btn.length; i++) {
-    btnClass = btn[i].classList;
-};
+let btn3 = document.querySelectorAll(".warning");
+btn3 = [...btn3];
+btn3.map(elt => elt.style.backgroundColor = "yellow");
 
-//Appliquer style à chaque bouton selon sa classe + priorité
-if (btnClass.contains("danger")) {
-    btn[i].style.backgroundColor = "red";
-} else if (btnClass.contains("warning")) {
-    btn[i].style.backgroundColor = "yellow";
-} else if (btnClass.contains("secondary")) {
-    btn[i].style.backgroundColor = "grey";
-} else {
-    btn[i].style.backgroundColor = "blue";
-};
+let btn4 = document.querySelectorAll(".danger");
+btn4 = [...btn4];
+btn4.map(elt => elt.style.backgroundColor = "red");
+
+
+// document.querySelectorAll(".secondary").style.backgroundColor = "grey";
+// document.querySelectorAll(".warning").style.backgroundColor = "yellow";
+// document.querySelectorAll(".danger").style.backgroundColor = "red";
