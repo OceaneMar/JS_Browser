@@ -2,7 +2,9 @@ function parentAccess(node) {
     return node.parentElement;
    } 
 
-//console.log(parentAccess("p.x-wing"));
+//const elt = document.getElementsById("menu");
+
+//console.log(parentAccess(elt));
 //console.log(parentAccess().innerHTML);
 
 parentAccess(); 
