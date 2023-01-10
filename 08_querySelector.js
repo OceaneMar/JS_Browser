@@ -1,7 +1,7 @@
 //récupérer les boutons
 let btn = document.querySelectorAll("button");
 
-btn = [...btn]; //transformer en tableau
+//btn = [...btn]; //transformer en tableau
 
 //boucle à travers le tableau de bouton pour récupérer la classe de chaque bouton
 for (let i = 0; i < btn.length; i++) {
