@@ -13,8 +13,3 @@ btn3.map(elt => elt.style.backgroundColor = "yellow");
 let btn4 = document.querySelectorAll(".danger");
 btn4 = [...btn4];
 btn4.map(elt => elt.style.backgroundColor = "red");
-
-
-// document.querySelectorAll(".secondary").style.backgroundColor = "grey";
-// document.querySelectorAll(".warning").style.backgroundColor = "yellow";
-// document.querySelectorAll(".danger").style.backgroundColor = "red";
