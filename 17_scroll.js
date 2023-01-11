@@ -1,5 +1,5 @@
 const currentDate = new Date;
-const dateTime = currentDate.toGMTString();
+const dateTime = currentDate.toUTCString();
 
 document.addEventListener("scroll", () => {
 let contenant = document.body;
