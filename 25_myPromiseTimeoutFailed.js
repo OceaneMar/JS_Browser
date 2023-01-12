@@ -1,7 +1,7 @@
 const sleepError = (milliseconds) => {
     return new Promise((resolve, reject) => setTimeout(() => {
         if (milliseconds > 1999) {
-            reject("error")
+            reject("throw")
         } else {
             resolve(setTimeout(resolve, milliseconds))
         }
