@@ -1,6 +1,3 @@
-//Ajouter un EventListener sur le bouton "addTodo"
-    //Créer un élément <li> dans le conteneur <ul> ayant la valeur du champ
-        //Ajouter un bouton à l'élément <li>, ayant un ID "delete" et associé à la tâche
 let btn = document.querySelector("input#addTodo");
 
 btn.addEventListener("click", (event) => {
@@ -12,6 +9,9 @@ btn.addEventListener("click", (event) => {
     li.textContent = `${nameTask}`;
     content.appendChild(li);
 
+    let inputTask = document.getElementsByName("nameTask")[0];
+    inputTask.value = ""
+
     let deleteBtn = document.createElement("button");
     deleteBtn.textContent = "Supprimer";
     deleteBtn.id = "delete";
@@ -21,13 +21,3 @@ btn.addEventListener("click", (event) => {
         e.target.parentNode.remove();
     });
 });
-
-
-    
-
-console.log("nametask:", nameTask);
-console.log("ul:", content);
-console.log("li:", li);
-
-//Ajouter un EventListener sur le bouton delete
-    //Supprimer la tâche associée au bouton delete
