@@ -1,4 +1,4 @@
-const btn = document.getElementById("ex22");
+const btn = document.querySelector("button");
 
 let content = document.body;
 
