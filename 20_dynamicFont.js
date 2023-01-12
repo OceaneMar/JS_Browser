@@ -1,8 +1,8 @@
-let inputEvent = document.getElementsByClassName("ex20")[0];
+let inputEvent = document.querySelector("input#fontsize");
 
 console.log("inputEvent :", inputEvent);
 
-inputEvent.addEventListener("submit", (event) => {
+inputEvent.addEventListener("input", (event) => {
     event.preventDefault()
     // Récupérer la valeur du champ pour la taille de la police
     let sizeFont = document.getElementById("fontsize").value;
