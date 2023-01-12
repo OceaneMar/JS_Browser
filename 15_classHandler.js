@@ -1,5 +1,5 @@
 const btn = document.getElementById("toggle");
-const div = document.querySelector("#modal");
+const div = document.querySelector("div#modal");
 
 
 
